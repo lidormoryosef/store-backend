@@ -1,7 +1,7 @@
 
 const bodyParser = require('body-parser');
 const express = require('express');
-// const memberRoute = require('./Routes/MemberRoute');
+const productRoute = require('./Routes/ProductsRoute');
 const http=require('http');
 const swaggerUi = require('swagger-ui-express');
 const swaggerJsdoc = require('swagger-jsdoc');
@@ -27,7 +27,7 @@ let app = express();
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.json({ limit: '1000mb' }));
 app.use(express.static('public'));
-// app.use('/api/members', memberRoute);
+app.use('/api/products', productRoute);
 app.use('/swagger', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 const server=http.createServer(app);
 
