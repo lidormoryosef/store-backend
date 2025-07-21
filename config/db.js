@@ -1,6 +1,6 @@
 const { Sequelize } = require('sequelize');
 const sequelize = new Sequelize('store', 'root', 'lidor123', {
-  host: 'localhost',
+  host: 'db',
   port: 3306,
   dialect: 'mysql'
 });
