@@ -24,9 +24,34 @@ Access the deployed version here:
 
 ---
 
-## 🚀 Running Locally with Docker Compose
+## 🚀 Running Locally with Docker Compos
    ```bash
    git clone https://github.com/lidormoryosef/store-backend.git
    cd store-backend
    docker-compose up -d
+```
+---
+
+## 🚀 Running Locally
+   ### for server side
+   ```bash
+   git clone https://github.com/lidormoryosef/store-backend.git
+   cd store-backend
+   npm i
+   mysql -u root -p db-init/init.sql
+   node server.js
+```
+   ### for client side
+   ```bash
+   git clone https://github.com/lidormoryosef/store-front.git
+   cd store-front
+   npm i
+   npm start
+```
+   Navigate to http://localhost:3000
+## DataBase details
+   - Type : MySql
+   - Db Name : 'store'
+   - user: 'root'
+   - password: 'lidor123'
    
