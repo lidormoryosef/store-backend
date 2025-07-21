@@ -29,6 +29,7 @@ Access the deployed version here:
    git clone https://github.com/lidormoryosef/store-backend.git
    cd store-backend
    docker-compose up -d
+
 ```
 ---
 
@@ -38,8 +39,9 @@ Access the deployed version here:
    git clone https://github.com/lidormoryosef/store-backend.git
    cd store-backend
    npm i
-   mysql -u root -p db-init/init.sql
+   mysql -u root -p < db-init/init.sql
    node server.js
+
 ```
    ### for client side
    ```bash
@@ -47,6 +49,7 @@ Access the deployed version here:
    cd store-front
    npm i
    npm start
+
 ```
    Navigate to http://localhost:3000
 ## DataBase details
