@@ -1,11 +1,15 @@
 # 🛒 Store Product Management Web App
 
-A full-stack product management application that allows users to add, edit, search, and delete products with pagination and filtering.
+> 📦 This is the **backend** code of the Store Product Management app.  
+> The **frontend** (React client) is available at:  
+> 🔗 [https://github.com/lidormoryosef/store-front](https://github.com/lidormoryosef/store-front)
+
+A full-stack product management application that allows users to add, edit, search,sort and delete products with pagination and filtering.
 
 ## 🌐 Live Website
 
 Access the deployed version here:  
-🔗 [Visit Online]([[https://your-production-url.com](http://51.21.180.66:5000/)]
+🔗 [https://store.com](http://51.21.180.66:5000/)
 
 ---
 
@@ -13,6 +17,7 @@ Access the deployed version here:
 
 - Add/edit/delete products
 - Search and filter with pagination
+- Sort with pagination
 - Client and server side validations
 - Swagger API documentation
 - Built with React, Node.js, Express, Sequelize & MySQL
@@ -20,16 +25,8 @@ Access the deployed version here:
 ---
 
 ## 🚀 Running Locally with Docker Compose
-
-### Prerequisites
-
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
-
-### Steps
-
-1. **Clone the repository**:
-
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/lidormoryosef/store-backend.git
+   cd store-backend
+   docker-compose up -d
+   
