@@ -31,6 +31,8 @@ Access the deployed version here:
    docker-compose up -d
 
 ```
+### ✅ Requirements
+   * Docker
 ---
 
 ## 🚀 Running Locally
@@ -40,6 +42,9 @@ Access the deployed version here:
    cd store-backend
    npm i
    mysql -u root -p < db-init/init.sql
+```
+Enter Your Password
+```bash
    node server.js
 
 ```
@@ -52,9 +57,11 @@ Access the deployed version here:
 
 ```
    Navigate to http://localhost:3000
-## DataBase details
+   ### ✅ Requirements
+   * MySql Cli
+## DataBase details in config/db.js
    - Type : MySql
    - Db Name : 'store'
    - user: 'root'
-   - password: 'lidor123'
+   - password: 'lidor123' // Change To Your Password.
    
