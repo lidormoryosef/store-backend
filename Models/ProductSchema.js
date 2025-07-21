@@ -36,5 +36,8 @@ const Product = sequelize.define('Product', {
         return oneWeekAgo.toISOString().split('T')[0];
       }
     }
-  });
+  }, {
+  freezeTableName: true,
+  timestamps: false 
+});
   module.exports = Product;
