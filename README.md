@@ -24,7 +24,7 @@ Access the deployed version here:
 
 ---
 
-## 🚀 Running Locally with Docker Compos
+## 🚀 Running Locally with Docker Compose
    ```bash
    git clone https://github.com/lidormoryosef/store-backend.git
    cd store-backend
