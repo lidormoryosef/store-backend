@@ -31,6 +31,7 @@ Access the deployed version here:
    docker-compose up -d
 
 ```
+Navigate to http://localhost:5000
 ### ✅ Requirements
    * Docker
 ---
