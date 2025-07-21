@@ -43,6 +43,7 @@ Navigate to http://localhost:5000
    cd store-backend
    npm i
    mysql -u root -p < db-init/init.sql
+
 ```
 Enter Your Password
 ```bash
