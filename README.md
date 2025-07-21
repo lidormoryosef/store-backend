@@ -5,9 +5,7 @@ A full-stack product management application that allows users to add, edit, sear
 ## 🌐 Live Website
 
 Access the deployed version here:  
-🔗 [Visit Online]([https://your-production-url.com](http://51.21.180.66:5000/))
-
-> 📌 Replace the URL with your actual deployment link.
+🔗 [Visit Online]([[https://your-production-url.com](http://51.21.180.66:5000/)]
 
 ---
 
