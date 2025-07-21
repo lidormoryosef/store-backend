@@ -53,7 +53,7 @@ Enter Your Password
    ### for client side
    ```bash
    git clone https://github.com/lidormoryosef/store-front.git
-   cd store-front
+   cd store-front/frontend
    npm i
    npm start
 
