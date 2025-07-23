@@ -46,7 +46,7 @@ Navigate to http://localhost:5000
 ```
 Enter Your Password
 ```bash
-   node server.js
+node server.js
 
 ```
 
