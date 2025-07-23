@@ -37,7 +37,6 @@ Navigate to http://localhost:5000
 ---
 
 ## 🚀 Running Locally
-   ### for server side
    ```bash
    git clone https://github.com/lidormoryosef/store-backend.git
    cd store-backend
@@ -50,14 +49,7 @@ Enter Your Password
    node server.js
 
 ```
-   ### for client side
-   ```bash
-   git clone https://github.com/lidormoryosef/store-front.git
-   cd store-front/frontend
-   npm i
-   npm start
 
-```
    Navigate to http://localhost:3000
    ### ✅ Requirements
    * MySql Cli
