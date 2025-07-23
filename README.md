@@ -50,7 +50,7 @@ Enter Your Password
 
 ```
 
-   Navigate to http://localhost:3000
+   Navigate to http://localhost:5000
    ### ✅ Requirements
    * MySql Cli
 ## DataBase details in config/db.js
