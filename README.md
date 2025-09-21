@@ -43,4 +43,8 @@ Navigate to http://localhost:5000
 ```
 
    Navigate to http://localhost:5000
+   ### ✅ Requirements
+   * Node
+   * git
+---
    
