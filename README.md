@@ -1,15 +1,13 @@
-# 🛒 Store Product Management Web App
+# Card Management Web App
 
-> 📦 This is the **backend** code of the Store Product Management app.  
-> The **frontend** (React client) is available at:  
-> 🔗 [https://github.com/lidormoryosef/store-front](https://github.com/lidormoryosef/store-front)
+> 📦 This is the code of the Cards Management app.  
 
-A full-stack product management application that allows users to add, edit, search,sort and delete products with pagination and filtering.
+A full-stack card management application that allows users to add, edit, search,sort and delete products with pagination and filtering.
 
 ## 🌐 Live Website
 
 Access the deployed version here:  
-🔗 [https://store.com](http://51.21.180.66:5000/)
+🔗 [https://cards.com](http://51.21.180.66:5000/)
 
 ---
 
@@ -24,11 +22,10 @@ Access the deployed version here:
 
 ---
 
-## 🚀 Running Locally with Docker Compose
+## 🚀 Running with Docker
    ```bash
-   git clone https://github.com/lidormoryosef/store-backend.git
-   cd store-backend
-   docker-compose up -d
+   docker pull lidormoryosef/helfyproject:001
+   docker run -d -p 5000:5000 lidormoryosef/helfyproject:001
 
 ```
 Navigate to http://localhost:5000
@@ -38,24 +35,12 @@ Navigate to http://localhost:5000
 
 ## 🚀 Running Locally
    ```bash
-   git clone https://github.com/lidormoryosef/store-backend.git
-   cd store-backend
+   git clone https://github.com/lidormoryosef/helfyproject.git
+   cd helfyproject/backend
    npm i
-   mysql -u root -p < db-init/init.sql
-
-```
-Enter Your Password
-```bash
-node server.js
+   node server.js
 
 ```
 
    Navigate to http://localhost:5000
-   ### ✅ Requirements
-   * MySql Cli
-## DataBase details in config/db.js
-   - Type : MySql
-   - Db Name : 'store'
-   - user: 'root'
-   - password: 'lidor123' // Change To Your Password.
    
